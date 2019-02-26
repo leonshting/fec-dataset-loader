@@ -6,7 +6,7 @@ import argparse
 import cv2
 from scipy.stats import mode
 
-from kungfutils.io.file_utils import recursive_mkdir
+from kungfutils.package.io.file_utils import recursive_mkdir
 
 
 def triplets_from_meta(meta_info_path, split='train'):

@@ -10,8 +10,8 @@ from PIL import Image
 import io
 import sys
 
-from kungfutils.io.file_utils import recursive_mkdir
-from kungfutils.routines.string_routines import generate_id
+from kungfutils.package.io.file_utils import recursive_mkdir
+from kungfutils.package.routines.string_routines import generate_id
 from tor_crawler import TorCrawler
 
 
