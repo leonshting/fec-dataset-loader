@@ -12,7 +12,7 @@ import sys
 
 from kungfutils.package.io.file_utils import recursive_mkdir
 from kungfutils.package.routines.string_routines import generate_id
-from tor_crawler import TorCrawler
+from .tor_crawler import TorCrawler
 
 
 class FECLoader:
